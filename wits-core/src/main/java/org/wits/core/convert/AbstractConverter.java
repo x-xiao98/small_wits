@@ -6,6 +6,7 @@ import org.wits.core.util.ClassUtil;
 import org.wits.core.util.StrUtil;
 
 import java.io.Serializable;
+import java.util.Arrays;
 import java.util.Map;
 
 /**
@@ -59,7 +60,7 @@ public abstract class AbstractConverter<T> implements Converter<T>, Serializable
 			return ((null == result) ? defaultValue : result);
 		} else {
 			throw new IllegalArgumentException(
-					StrUtil.format("Default value [{}]({}) is not the instance of [{}]", defaultValue, defaultValue.getClass(), targetType));
+					String.format("Default value [{}]({}) is not the instance of [{}]", defaultValue, defaultValue.getClass(), targetType));
 		}
 	}
 
