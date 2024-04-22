@@ -1,7 +1,7 @@
 package org.wits.core.util;
 
-import cn.hutool.core.lang.ParameterizedTypeImpl;
-import cn.hutool.core.lang.reflect.ActualTypeMapperPool;
+import org.wits.core.lang.ParameterizedTypeImpl;
+import org.wits.core.lang.reflect.ActualTypeMapperPool;
 
 import java.lang.reflect.*;
 import java.util.ArrayList;
@@ -361,7 +361,7 @@ public class TypeUtil {
 	 * 获取泛型变量和泛型实际类型的对应关系Map，例如：
 	 *
 	 * <pre>
-	 *     T    cn.hutool.test.User
+	 *     T    org.wits.test.User
 	 *     E    java.lang.Integer
 	 * </pre>
 	 *

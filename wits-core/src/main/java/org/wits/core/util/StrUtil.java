@@ -1,6 +1,6 @@
 package org.wits.core.util;
 
-import cn.hutool.core.text.*;
+import org.wits.core.text.*;
 
 import java.io.StringReader;
 import java.io.StringWriter;

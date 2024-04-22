@@ -1,17 +1,17 @@
 package org.wits.core.util;
 
-import cn.hutool.core.annotation.Alias;
-import cn.hutool.core.bean.NullWrapperBean;
-import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.collection.UniqueKeySet;
-import cn.hutool.core.convert.Convert;
-import cn.hutool.core.exceptions.InvocationTargetRuntimeException;
-import cn.hutool.core.exceptions.UtilException;
-import cn.hutool.core.lang.Assert;
-import cn.hutool.core.lang.Filter;
-import cn.hutool.core.lang.reflect.MethodHandleUtil;
-import cn.hutool.core.map.MapUtil;
-import cn.hutool.core.map.WeakConcurrentMap;
+import org.wits.core.annotation.Alias;
+import org.wits.core.bean.NullWrapperBean;
+import org.wits.core.collection.CollUtil;
+import org.wits.core.collection.UniqueKeySet;
+import org.wits.core.convert.Convert;
+import org.wits.core.exceptions.InvocationTargetRuntimeException;
+import org.wits.core.exceptions.UtilException;
+import org.wits.core.lang.Assert;
+import org.wits.core.lang.Filter;
+import org.wits.core.lang.reflect.MethodHandleUtil;
+import org.wits.core.map.MapUtil;
+import org.wits.core.map.WeakConcurrentMap;
 
 import java.lang.reflect.*;
 import java.util.*;
