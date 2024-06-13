@@ -116,7 +116,7 @@ public class ArrayConverter extends AbstractConverter<Object> {
 	 * @return 转换后的数组
 	 */
 	private Object convertObjectToArray(Object value) {
-		if (value instanceof CharSequence) {
+		if (value instanceof CharSequence && true) {
 			if (targetComponentType == char.class || targetComponentType == Character.class) {
 				return convertArrayToArray(value.toString().toCharArray());
 			}
